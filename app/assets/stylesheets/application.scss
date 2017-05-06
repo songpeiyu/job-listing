@@ -20,7 +20,7 @@
  @import "font-awesome";
 
  .jumbotron {
-   background-image:url('http://fullstack-public.oss-cn-qingdao.aliyuncs.com/2017-04-15-542213.png');
+   background-image:url('http://ww3.sinaimg.cn/large/006tKfTcgy1ff8co7n1jnj30jg09x7gb.jpg');
    background-repeat: no-repeat;
    background-size: cover;
    padding-bottom: 110px;
@@ -66,7 +66,7 @@
  .lead {
    margin-bottom: 60px;
    text-align: center;
-   color: white;
+   color: black;
  }
 
  .caption {
@@ -97,9 +97,9 @@
 }
 
  .navbar-default {
-     background-color: #B5D0FF;  //背景颜色
+     background-color: #FFFFFF;  //背景颜色
 
-     border-color: #B5D0FF; //边框色
+     border-color: #FFFFFF; //边框色
 
      margin-bottom: 0; //底部 margin 不撑开距离
  }
@@ -156,7 +156,7 @@
   .navbar-brand > img {
      display: inline-block; //图片和链接文字显示在同一行
      margin-right: 10px; //图片和链接文字拉开一点距离
-     width: 32px; //定制图片宽度
+     width: 251px; //定制图片宽度
      height: 32px; //定制图片高度
  }
 
@@ -285,4 +285,33 @@
 
  .login-help{
    font-size: 12px;
+ }
+
+
+ //---------Content---------
+
+ .content-section-a {
+     padding: 50px 0;
+     background-color: #f8f8f8;
+ }
+
+ .content-section-b {
+     padding: 50px 0;
+     border-top: 1px solid #e7e7e7;
+     border-bottom: 1px solid #e7e7e7;
+ }
+
+ .section-heading-spacer {
+     float: left;
+     width: 200px;
+     border-top: 3px solid #e7e7e7;
+ }
+
+ .section-heading {
+     margin-bottom: 30px;
+ }
+
+ .lead {
+     font-size: 18px;
+     font-weight: 400;
  }
